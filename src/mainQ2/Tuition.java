@@ -6,7 +6,6 @@ public class Tuition
 {
 	public static void main(String[] args)
 	{
-		//test
 		Scanner input = new Scanner(System.in);
 		double initalTuitionCost;
 		double percentIncreases;
@@ -27,7 +26,7 @@ public class Tuition
 		for(double x = Year; x<= PlannedYears; x++)
 		{
 			cost = cost + tuition;
-			tuition = tuition + tuition * percentIncreases;
+			tuition = tuition + tuition * (percentIncreases/100);
 		}
 		return cost;
 	}
