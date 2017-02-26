@@ -6,6 +6,7 @@ public class Tuition
 {
 	public static void main(String[] args)
 	{
+		//test
 		Scanner input = new Scanner(System.in);
 		double initalTuitionCost;
 		double percentIncreases;
